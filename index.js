@@ -4,7 +4,7 @@ const toolCache = require("@actions/tool-cache");
 const path = require("path");
 const fs = require("fs");
 
-const url = "http://gosspublic.alicdn.com/ossutil/1.6.7/ossutil64";
+const url = "http://gosspublic.alicdn.com/ossutil/1.7.1/ossutil64";
 
 async function main() {
   const ENDPOINT = core.getInput("endpoint");
